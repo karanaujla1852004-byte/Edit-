@@ -1,0 +1,143 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          LUXCUT MEDIA - CODE FILES GUIDE                        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📂 WHAT'S INSIDE THIS ZIP FILE:
+
+══════════════════════════════════════════════════════════════════
+🎨 FRONTEND (React - User Interface)
+══════════════════════════════════════════════════════════════════
+
+frontend/src/
+  ├── 📄 App.js                    → Main app entry, routing
+  ├── 📄 mock.js                   → ⭐ YOUR CONTENT HERE
+  ├── 📄 index.css                 → Global styles
+  ├── 📄 App.css                   → App-specific styles
+  │
+  ├── components/
+  │   ├── 📄 Home.jsx              → ⭐ ENTIRE WEBSITE CODE
+  │   └── ui/                      → Pre-built components
+  │       ├── button.jsx
+  │       ├── card.jsx
+  │       ├── badge.jsx
+  │       └── ... (50+ components)
+  │
+  ├── hooks/
+  │   └── use-toast.js             → Toast notifications
+  │
+  └── lib/
+      └── utils.js                 → Helper functions
+
+frontend/
+  ├── 📄 package.json              → Dependencies list
+  ├── 📄 tailwind.config.js        → Styling configuration
+  ├── 📄 .env                      → Backend URL
+  └── public/
+      └── index.html               → HTML template
+
+══════════════════════════════════════════════════════════════════
+⚙️ BACKEND (Python FastAPI - Server & Database)
+══════════════════════════════════════════════════════════════════
+
+backend/
+  ├── 📄 server.py                 → API server (currently basic)
+  ├── 📄 requirements.txt          → Python dependencies
+  └── 📄 .env                      → MongoDB & config
+
+══════════════════════════════════════════════════════════════════
+📝 FILES YOU'LL MOST LIKELY EDIT:
+══════════════════════════════════════════════════════════════════
+
+1. ⭐ frontend/src/mock.js
+   → Update services, portfolio, testimonials, stats
+   → NO CODING NEEDED! Just edit the text
+
+2. ⭐ frontend/src/components/Home.jsx
+   → Change brand name (line 56)
+   → Update WhatsApp (line 402)
+   → Update email (line 382)
+   → Modify colors if needed
+
+3. frontend/src/index.css
+   → Global colors and fonts
+
+══════════════════════════════════════════════════════════════════
+🔍 HOW TO FIND SPECIFIC PARTS:
+══════════════════════════════════════════════════════════════════
+
+Want to change:                     Open this file:
+────────────────────────────────────────────────────────────────
+Business name "LuxCut Media"     →  Home.jsx (line 56)
+WhatsApp number                  →  Home.jsx (line 402, 407)
+Email address                    →  Home.jsx (line 382)
+Services offered                 →  mock.js (lines 3-40)
+Portfolio projects               →  mock.js (lines 42-80)
+Testimonials                     →  mock.js (lines 82-106)
+Stats (500+ projects)            →  mock.js (lines 108-113)
+Website colors                   →  Home.jsx (search "orange-500")
+Header navigation                →  Home.jsx (lines 60-73)
+Footer                          →  Home.jsx (lines 444-502)
+
+══════════════════════════════════════════════════════════════════
+💡 QUICK CUSTOMIZATION TIPS:
+══════════════════════════════════════════════════════════════════
+
+1. CHANGE BRAND NAME:
+   - Search "LuxCut Media" in Home.jsx
+   - Replace all occurrences (3 places)
+
+2. UPDATE CONTACT INFO:
+   - Search "919815235805" for WhatsApp
+   - Search "editor@example.com" for email
+   - Replace with your details
+
+3. CHANGE COLORS:
+   - Search "orange-500" and "rose-500"
+   - Replace with your brand colors
+   - Examples: blue-500, purple-500, green-500
+
+4. ADD PORTFOLIO ITEMS:
+   - Open mock.js
+   - Copy an existing portfolioItem
+   - Edit title, image, description
+   - Save!
+
+══════════════════════════════════════════════════════════════════
+📊 WEBSITE SECTIONS (All in Home.jsx):
+══════════════════════════════════════════════════════════════════
+
+Lines 49-104:    Header & Navigation
+Lines 108-164:   Hero Section (Transform Your Vision...)
+Lines 167-199:   Services Section (6 services)
+Lines 202-279:   Portfolio Section (filterable grid)
+Lines 282-308:   Testimonials Section
+Lines 311-359:   About Section
+Lines 362-443:   Contact Section (Email + WhatsApp)
+Lines 446-502:   Footer
+
+══════════════════════════════════════════════════════════════════
+🚀 TO RUN THE WEBSITE:
+══════════════════════════════════════════════════════════════════
+
+1. Install Node.js (https://nodejs.org)
+2. Open terminal in 'frontend' folder
+3. Run: yarn install
+4. Run: yarn start
+5. Website opens at http://localhost:3000
+
+══════════════════════════════════════════════════════════════════
+✅ WHAT'S INCLUDED:
+══════════════════════════════════════════════════════════════════
+
+✓ Complete working website
+✓ All source code
+✓ Modern UI components
+✓ Responsive design (mobile + desktop)
+✓ Sample content (portfolio, services, testimonials)
+✓ Ready to deploy
+✓ Easy to customize
+
+══════════════════════════════════════════════════════════════════
+
+Need help? Read the README.md file for detailed instructions!
+
