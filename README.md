@@ -1,6 +1,6 @@
 # LuxCut Media - Video Editing Services Website
 
-Professional video editing services website built with React, FastAPI, and MongoDB.
+Professionaal video editing services website built with React, FastAPI, and MongoDB.
 
 ## 📁 Project Structure
 
